@@ -3,12 +3,14 @@ import typer
 from loguru import logger
 from tqdm import tqdm
 
+
 from marketingcodes.config import (PROCESSED_DATA_DIR,
                                         RAW_DATA_DIR,EXTERNAL_DATA_DIR,np,
                                         pd,INTERIM_DATA_DIR,plt,FIGURES_DIR)
 
 app = typer.Typer()
 
+print("hi")
 def read_sample(sample_size=20000, path='/content/online_retail_II.csv', seed=1155):
     """
     :param sample_size:
