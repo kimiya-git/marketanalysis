@@ -4,7 +4,7 @@ import typer
 from loguru import logger
 from tqdm import tqdm
 
-from marketingcodes.config import FIGURES_DIR, PROCESSED_DATA_DIR
+from transactionanalysis.config import FIGURES_DIR, PROCESSED_DATA_DIR
 
 app = typer.Typer()
 

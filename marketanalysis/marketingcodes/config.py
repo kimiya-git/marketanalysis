@@ -3,6 +3,24 @@ from pathlib import Path
 from dotenv import load_dotenv
 from loguru import logger
 
+
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import calendar
+from sklearn.impute import SimpleImputer
+from sklearn.cluster import KMeans
+from sklearn.preprocessing import StandardScaler
+from yellowbrick.cluster import KElbowVisualizer
+import plotly.express as px
+import seaborn as sns
+
+from mlxtend.frequent_patterns import fpgrowth, association_rules
+from mlxtend.preprocessing import TransactionEncoder
+
+
 # Load environment variables from .env file if it exists
 load_dotenv()
 
@@ -10,7 +28,7 @@ load_dotenv()
 PROJ_ROOT = Path(__file__).resolve().parents[1]
 logger.info(f"PROJ_ROOT path is: {PROJ_ROOT}")
 
-DATA_DIR = PROJ_ROOT / "data"
+DATA_DIR = PROJ_ROOT / "dataa"
 RAW_DATA_DIR = DATA_DIR / "raw"
 INTERIM_DATA_DIR = DATA_DIR / "interim"
 PROCESSED_DATA_DIR = DATA_DIR / "processed"
