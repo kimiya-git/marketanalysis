@@ -3,7 +3,7 @@ import typer
 from loguru import logger
 from tqdm import tqdm
 
-from transactionanalysis.config import (PROCESSED_DATA_DIR,
+from marketingcodes.config import (PROCESSED_DATA_DIR,
                                         RAW_DATA_DIR,EXTERNAL_DATA_DIR,np,
                                         pd,INTERIM_DATA_DIR,plt,FIGURES_DIR)
 

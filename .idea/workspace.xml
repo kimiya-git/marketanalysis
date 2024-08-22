@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7434bcc3-908d-4e1e-bb11-064906aa2c54" name="Changes" comment="">
+    <list default="true" id="7434bcc3-908d-4e1e-bb11-064906aa2c54" name="Changes" comment="add modeling codes">
       <change beforePath="$PROJECT_DIR$/.idea/attemptn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/attemptn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketanalysis/marketingcodes/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/marketanalysis/marketingcodes/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketanalysis/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/marketanalysis/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,21 +18,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "kimiya-git"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kimiya-git&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="55c72edf-b393-4f0a-b123-1a35d8d68b85" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/kimiya-git/marketanalysis.git",
-    "accountId": "55c72edf-b393-4f0a-b123-1a35d8d68b85"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kimiya-git/marketanalysis.git&quot;,
+    &quot;accountId&quot;: &quot;55c72edf-b393-4f0a-b123-1a35d8d68b85&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -48,7 +46,8 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "last_opened_file_path": "C:/Users/Asus/PycharmProjects/attemptn/marketanalysis",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -67,6 +66,28 @@
       <option name="presentableId" value="Default" />
       <updated>1724348716637</updated>
     </task>
+    <task id="LOCAL-00001" summary="commitall">
+      <option name="closed" value="true" />
+      <created>1724350344020</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724350344020</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add modeling codes">
+      <option name="closed" value="true" />
+      <created>1724350492719</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724350492719</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commitall" />
+    <MESSAGE value="add modeling codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add modeling codes" />
   </component>
 </project>
