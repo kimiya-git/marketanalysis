@@ -1,1 +1,1 @@
-from transactionanalysis import config  # noqa: F401
+from marketingcodes import config  # noqa: F401

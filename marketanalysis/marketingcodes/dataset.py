@@ -180,7 +180,7 @@ def main(
     # print peak of hour in dataset
     peak_hour = calculate_peak_hour(cleaned_df)
     print(f"Peak hour: {peak_hour}")
-    print("hi")
+
     # save an image to report
     save_invoice_plot(cleaned_df, figure_path)
     logger.success(f"Invoice plot saved to {figure_path}")
