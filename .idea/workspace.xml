@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7434bcc3-908d-4e1e-bb11-064906aa2c54" name="Changes" comment="dataset added">
+    <list default="true" id="7434bcc3-908d-4e1e-bb11-064906aa2c54" name="Changes" comment="rfm added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marketanalysis/marketingcodes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/marketanalysis/marketingcodes/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marketanalysis/marketingcodes/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/marketanalysis/marketingcodes/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marketanalysis/marketingcodes/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/marketanalysis/marketingcodes/dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marketanalysis/marketingcodes/features.py" beforeDir="false" afterPath="$PROJECT_DIR$/marketanalysis/marketingcodes/features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketanalysis/marketingcodes/rfm.py" beforeDir="false" afterPath="$PROJECT_DIR$/marketanalysis/marketingcodes/rfm.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,16 +50,40 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.clustering.executor": "Run",
     "Python.config.executor": "Run",
     "Python.dataset.executor": "Run",
     "Python.features.executor": "Run",
+    "Python.rfm.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/Asus/PycharmProjects/attemptn/marketanalysis",
     "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.features">
+  <component name="RunManager" selected="Python.clustering">
+    <configuration name="clustering" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="attemptn" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/marketanalysis/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/marketanalysis/models/clustering.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="attemptn" />
       <option name="ENV_FILES" value="" />
@@ -129,8 +150,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="rfm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="attemptn" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/marketanalysis/marketingcodes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/marketanalysis/marketingcodes/rfm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.clustering" />
+        <item itemvalue="Python.rfm" />
         <item itemvalue="Python.features" />
         <item itemvalue="Python.dataset" />
         <item itemvalue="Python.config" />
@@ -201,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724351803816</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="rfm added">
+      <option name="closed" value="true" />
+      <created>1724521424756</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724521424756</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -210,6 +263,7 @@
     <MESSAGE value="requirments changed" />
     <MESSAGE value="test" />
     <MESSAGE value="dataset added" />
-    <option name="LAST_COMMIT_MESSAGE" value="dataset added" />
+    <MESSAGE value="rfm added" />
+    <option name="LAST_COMMIT_MESSAGE" value="rfm added" />
   </component>
 </project>
